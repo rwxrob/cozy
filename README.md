@@ -1,5 +1,7 @@
 # 🍅 Simple coworking server and client
 
+***Work in progress. Watch for v0.1+ before attempting to use for anything.***
+
 People work better when they can share what they are doing easily. Coworking has emerged as the way to do this. Whether it is a group of people working for different companies all at the same coffee shop or people at the same company joined by (unproductive) cubicles, the idea is the same. Work *near* others (if not *with* them). Remote work has motivated the creation of several approaches to this idea but the original digital coworking platform has existed since the 70s: UNIX.
 
 People have been `finger`-ing one another, chatting over `ntalk` and `irc`, and sharing `.plan` and `.project` files since before today's social media billionaires were even born. One could argue that all modern social media platforms are derivatives of these original multi-user UNIX host systems and tools. You would think people designing modern social media would actually learn from these original designs, but sadly they have not. Cowork aspires to address these omissions in a modern way:
