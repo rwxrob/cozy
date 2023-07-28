@@ -1,0 +1,27 @@
+$schema: http://json-schema.org/draft-07/schema# 
+$id:     https://schemas.skilstak.io/cowork/v1/event.schema.json
+
+title:       SKILSTAK Coworking Event Schema
+description: ->
+  An event is something that happens at a single point in time with
+  a finite beginning and ending (does not repeat).
+
+type: object
+additionalProperties: false
+required:
+  - id
+
+properties:
+
+  id:
+    type:        string
+    description: Easily remembered identifier (unique per member).
+    minLength:   3
+    maxLength:   12
+
+  description:
+    type:        string
+    description: Description of the project suitable for public consumption.
+    maxLength:   500
+
+

@@ -1,0 +1,27 @@
+$schema: http://json-schema.org/draft-07/schema# 
+$id:     https://schemas.skilstak.io/cowork/v1/project.schema.json
+
+title:       SKILSTAK Coworking Project Schema
+description: ->
+  A schema to capture the general details of a project suitable for
+  sharing with others externally.
+
+type: object
+additionalProperties: false
+required:
+  - id
+
+properties:
+
+  id:
+    type:        string
+    description: Easily remembered identifier (unique per member).
+    minLength:   3
+    maxLength:   12
+
+  description:
+    type:        string
+    description: Description of the project suitable for public consumption.
+    maxLength:   500
+
+

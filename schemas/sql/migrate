@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+# never put a space in a file name
+FILES=$(ls ./*.sql)
+
+for file in $FILES; do
+  echo "Applying $file..."
+  psql -f "$file" 2>&1 | tee migrate.log
+done

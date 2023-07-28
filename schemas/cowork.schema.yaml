@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/draft-07/schema#
+$id:     https://schemas.skilstak.io/cowork/v1/cowork.schema.json
+
+title:       SKILSTAK Coworking Schema
+description: ->
+  A schema for building coworking communities and promoting gainful
+  relationships and productivity across employment boundaries.
+
+type: object
+additionalProperties: false
+
+properties:
+
+  current-event:
+    $ref: event.schema.json
+
