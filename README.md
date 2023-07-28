@@ -1,6 +1,10 @@
-# 🍅 Simple coworking server and client
+# Co{work,learn,play,llaborate,operate}
 
 ***Work in progress. Watch for v0.1+ before attempting to use for anything.***
+
+Co is a tool designed to bring people together in ways that promote progress for everyone in community by sharing what people are doing, what they want to do, and discovering others they can help. Co is more that just another social media platform. It's the missing part of most social media platforms that is required to help each other know follow and assist others with their specific objectives, a way to promote casual, organic help and mentoring when the need arises simply by helping everyone know what everyone else is doing. In fact, co was inspired by multi-user UNIX systems where having a `.project` and `.plan` made following what others where doing a normal thing. Co restores this part of what social media has seem to have forgotten about the successful collaborative systems of the past.
+
+## Sharing...
 
 People work better when they can share what they are doing easily. Coworking has emerged as the way to do this. Whether it is a group of people working for different companies all at the same coffee shop or people at the same company joined by (unproductive) cubicles, the idea is the same. Work *near* others (if not *with* them). Remote work has motivated the creation of several approaches to this idea but the original digital coworking platform has existed since the 70s: UNIX.
 
