@@ -1,4 +1,4 @@
-package cowork
+package cozy
 
 import _ "embed"
 
@@ -6,5 +6,5 @@ import _ "embed"
 // support compiles to other target languages by simply changing the
 // language identifier before compilation.
 
-//go:embed text/en/cowork.md
-var _cowork string
+//go:embed text/en/cozy.md
+var _cozy string

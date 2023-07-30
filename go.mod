@@ -1,4 +1,4 @@
-module github.com/rwxrob/cowork
+module github.com/rwxrob/cozy
 
 go 1.20
 

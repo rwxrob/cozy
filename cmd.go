@@ -1,4 +1,4 @@
-package cowork
+package cozy
 
 import (
 	Z "github.com/rwxrob/bonzai/z"
@@ -9,7 +9,7 @@ import (
 )
 
 var Cmd = &Z.Cmd{
-	Name: `cowork`,
+	Name: `cozy`,
 	Commands: []*Z.Cmd{
 		help.Cmd,
 	},
@@ -21,8 +21,8 @@ var Cmd = &Z.Cmd{
 	Version:     `v0.0.0`,
 	Copyright:   `(c) Robert S. Muhlestein <rob@rwx.gg> (rwxrob.tv)`,
 	License:     `Apache-2.0`,
-	Source:      `https://github.com/rwxrob/cowork`,
-	Issues:      `https://github.com/rwxrob/cowork/issues`,
-	Summary:     help.S(_cowork),
-	Description: help.D(_cowork),
+	Source:      `https://github.com/rwxrob/cozy`,
+	Issues:      `https://github.com/rwxrob/cozy/issues`,
+	Summary:     help.S(_cozy),
+	Description: help.D(_cozy),
 }

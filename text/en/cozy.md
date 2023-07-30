@@ -1,6 +1,6 @@
-use and administer a coworking community
+join and administer a real-time, collaborative community
 
-The {{aka}} command can be used to join, participate in, and manage an online coworking community.
+The {{aka}} command is the primary tool for creating a collaborative online community (think "coworking") and interacting with it in real-time.
 
 * `who`  - output short summary about a person suitable for all Twitch chat to see
 * `stat` - give the over time statistics about a community member
